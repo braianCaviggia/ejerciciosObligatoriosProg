@@ -85,7 +85,7 @@ import * as rs from 'readline-sync';
 // • La dimensión N también es ingresada por el usuario
 // • Muestre los números del arreglo pero del último al primero
 
-// let dimension : number = rs.questionInt("Ingrese la dimension del arreglo")
+// let dimension : number = rs.questionInt("Ingrese la dimension del arreglo: ")
 // let array : number [] = new Array(dimension)
 
 // for (let i = 0; i < dimension; i++) {
