@@ -1,0 +1,38 @@
+body {  /*Le saco el margen a toda la pagina*/
+    margin: 0;
+}
+
+.contenedor-banner img {  /*Para modificar la imagen del banner*/
+    width: 100%;
+    height: 550px;
+}
+
+.contenedor-zapatillas {   /*Contiene la imagen y todo el texto*/
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    border: 3px solid  hsl(160, 70%, 86%);
+    background-color: aquamarine;
+}
+
+.contenedor-zapatillas img {  /*Modifica la imagen solo de las zapatillas*/
+    width: 500px;
+}
+
+.titulo-zapatilla {  /*Modifica el titulo (H3)*/
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.descripcion-zapatilla {  /*Modifica la descripcion (P)*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.precio-zapatilla {  /*Modifica el precio (H3)*/
+    font-size: 25px;
+    text-align: center;
+}
