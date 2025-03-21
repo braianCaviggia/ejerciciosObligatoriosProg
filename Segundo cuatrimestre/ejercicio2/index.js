@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const celular_1 = require("./celular");
+let celular1 = new celular_1.Celular("IPHONE", 12, "IOS", undefined, undefined, undefined);
+let celular2 = new celular_1.Celular("IPHONE", 13, "IOS", "32GB", "128GB", undefined);
+let celular3 = new celular_1.Celular("IPHONE", 14, "IOS", "64GB", "264GB", true);
+celular1.mostrarInfo();
+celular1.encenderApagar();
+celular2.mostrarInfo();
+celular2.encenderApagar();
+celular3.mostrarInfo();
+celular3.encenderApagar();
