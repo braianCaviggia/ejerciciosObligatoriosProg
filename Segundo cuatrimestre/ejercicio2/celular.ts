@@ -52,10 +52,10 @@ export class Celular {
     }
 
     encenderApagar():void {
-        if (this.encendido == false) {
-            console.log("Este dispositivo se encuentra encendido")
+        if (this.encendido == true) {
+            console.log(`Bienvenido a ${this.marca}`)
         } else {
-            console.log("Este dispostivo se encuentra apagado")
+            console.log("El celular se encuentra apagado")
         }
     }
 
