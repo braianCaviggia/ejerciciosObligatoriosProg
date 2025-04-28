@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Perro_1 = require("./Perro");
+const Gato_1 = require("./Gato");
+let perro = new Perro_1.Perro("Perro");
+let gato = new Gato_1.Gato("Gato");
+perro.emitirSonido();
+perro.moverse();
+perro.tipoDeDieta();
+console.log("-----------------------------------");
+gato.emitirSonido();
+gato.moverse();
+gato.tipoDeDieta();
